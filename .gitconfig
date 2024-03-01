@@ -2,6 +2,22 @@
 	name = Cameron
 	# email = set per device
 
+[alias]
+	c = commit
+	co = checkout
+	pl = pull
+	ph = push
+	f = fetch
+	fa = fetch --all
+	r = reset
+	rh = reset --hard
+	st = status
+	df = diff
+	l = log
+	lo = log --oneline
+	sh = show
+	rb = rebase
+
 [init]
 	defaultBranch = main
 

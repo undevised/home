@@ -7,6 +7,7 @@ alias ll="eza --long"
 alias la="eza --long --all"
 alias tree="eza --tree"
 alias cat="bat"
+alias g="git"
 
 function fish_greeting
 end
