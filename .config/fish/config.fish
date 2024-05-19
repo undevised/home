@@ -1,5 +1,6 @@
 fish_add_path $HOME/Applications
 fish_add_path /usr/local/go/bin
+fish_add_path $HOME/go/bin
 
 alias config="/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
 alias ls="eza"
@@ -13,4 +14,4 @@ function fish_greeting
 end
 
 starship init fish | source
-zoxide init fish | source
+zoxide init --cmd cd fish | source
